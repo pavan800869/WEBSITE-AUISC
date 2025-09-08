@@ -13,6 +13,7 @@ const Achievements = lazy(() => import('./pages/Achievements'));
 const Team = lazy(() => import('./pages/Team'));
 const Contact = lazy(() => import('./pages/Contact'));
 const AUNSF = lazy(() => import('./pages/AUNSF'));
+const EPICS = lazy(() => import('./pages/EPICS'));
 
 function AppContent() {
   const [showWelcomeModal, setShowWelcomeModal] = useState(false);
@@ -40,6 +41,7 @@ function AppContent() {
           <Route path="/team" element={<Team />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/aunsf" element={<AUNSF  />} />
+          <Route path="/epics" element={<EPICS />} />
         </Routes>
       </Layout>
 
