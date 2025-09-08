@@ -10,6 +10,7 @@ const navLinks = [
   { path: "/", label: "Home" },
   { path: "/about", label: "About" },
   { path: "/events", label: "Events" },
+  { path: "/epics", label: "EPICS" },
   { path: "/achievements", label: "Achievements" },
   { path: "/team", label: "Team" },
   { path: "/contact", label: "Contact" },
